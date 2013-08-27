@@ -37,8 +37,8 @@ void setup()
   pinMode(EA, OUTPUT);
   pinMode(EB, OUTPUT);
   Serial.begin(9600);
-  for(i=0; i<6; i++) d[i]='2'; //clean the input
-  d[6]='\0';
+  for(i=0; i<5; i++) d[i]='2'; //clean the input
+  d[5]='\0';
   i=-1;
   p=0; 
 }
@@ -58,7 +58,7 @@ void loop()
   if(i==5)
   {
     d[5]='\0'; //cap it off
-    i=-1;
+    i=-1; //reset the byte counter
   }
   digitalWrite(EA, HIGH); //enable the engines
   digitalWrite(EB, HIGH);
