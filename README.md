@@ -10,6 +10,8 @@ The shield was design using the Labcenter Proteus 7.8 software suite.
 Parts list
 ===============
 
+Arduino (used Uno)
+
 custom made PCB
 
 L298 dual H bridge
