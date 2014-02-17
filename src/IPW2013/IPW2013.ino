@@ -21,7 +21,7 @@ e.g.
 
 1st byte: 0 for X (front-back), 1 for Y (left-right)
 2nd byte: + for back, right; - for front, left
-next 3 bytes: a value from 0 to 127, how much current
+next 3 bytes: a value from 0 to 255, how much current
               should go to the engines (this can be tweaked in the
               sender code, but that is the convention that we
               worked out)
